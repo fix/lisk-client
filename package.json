@@ -1,0 +1,40 @@
+{
+  "name": "lisk-client",
+  "version": "1.0.0",
+  "description": "Command Line Interface to Lisk blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fix/lisk-client.git"
+  },
+  "keywords": [
+    "lisk",
+    "blockchain",
+    "lite",
+    "cli"
+  ],
+  "bin": {
+    "lisk-client": "index.js"
+  },
+  "author": "fx.thoorens@ark.io",
+  "license": "MIT",
+  "dependencies": {
+    "lisk-js": "0.2.3",
+    "ascii-table": "0.0.9",
+    "asciichart": "^0.1.7",
+    "async": "^2.1.5",
+    "bip39": "^2.2.0",
+    "chart": "github:jstrace/chart",
+    "cli-spinners": "^1.0.0",
+    "colors": "^1.1.2",
+    "cowsay": "^1.1.9",
+    "figlet": "^1.2.0",
+    "le-table": "^6.1.4",
+    "ora": "^1.1.0",
+    "request": "^2.79.0",
+    "vorpal": "^1.11.4"
+  }
+}
