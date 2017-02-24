@@ -378,6 +378,8 @@ vorpal
         network=networks.mainnet;
         server=network.peers[Math.floor(Math.random()*1000)%network.peers.length];
         postTransaction(transaction, function(err, response, body){
+          network=tempnetwork;
+          server=tempserver;
           if(body.success && body.transactionId){
             self.log(colors.green(figlet.textSync("Thanks!")));
             self.log(colors.green("Thanks bro, happy you like this tool!"));
